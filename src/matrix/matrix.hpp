@@ -14,9 +14,11 @@ class Matrix{
 		Matrix operator+(double);
 		Matrix operator-(double);
 		Matrix operator*(double);
+		Matrix operator/(double);
 		double& operator()(const unsigned, const unsigned);
 
 		void print() const;
+
 
 	private:
 		std::array<std::array <double, 3>,3> mData;
