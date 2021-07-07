@@ -16,8 +16,12 @@ int main(){
 //	std::cout << std::endl;
 	
 	Matrix Mat1({std::array<std::array<double, 3>,3> {0,0,0,
-																									 0,0,0,
-																									 0,0,0}});
-	Mat1.print();
-	
+																									  0,0,0,
+																									  0,0,0}});
+
+	Matrix Mat2({std::array<std::array<double, 3>,3> {1,0,0,
+																									  0,1,0,
+																									  0,0,1}});
+	Matrix m(2);
+	m.print();
 }

@@ -5,6 +5,7 @@ class Matrix{
 
 	public:
 		Matrix(std::array<std::array<double, 3>, 3>);
+		Matrix(double);
 		Matrix(const Matrix &);
 
 		Matrix operator+(Matrix &);
